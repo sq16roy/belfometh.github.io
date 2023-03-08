@@ -59,15 +59,15 @@ input[type="date"]{
 }
 .square:after {
     position: absolute;
-    bottom: 43px;
     content: "\d7";
     font-size: 478px;
     color: #FFF;
-    line-height: 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    height: 300px;
+    line-height: 240px;
 }
 .top-balls {
     position: absolute;
