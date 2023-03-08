@@ -83,7 +83,10 @@ input[type="date"]{
     top: 72px;
     left: 66px;
 }
-
+.ball-two {
+    top: 118px;
+    left: 180px;
+}
 .ball-three {
     top: 72px;
     left: 296px;
