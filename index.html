@@ -10,7 +10,10 @@
     </head>
     <body>
         <section class="container">
-            <input type="date" id="date_input"/>
+            <div class="flex1">
+                <input type="date" id="date_input"/>
+            </div>
+            <div class="flex1"></div>
         </section>
         <section class="container first">
             <div class="cruz">
@@ -19,14 +22,31 @@
                     <span class="top-balls ball-one">1</span>
                     <span class="top-balls ball-two">2</span>
                     <span class="top-balls ball-three">3</span>
-                    <span class="top-balls">4</span>
-                    <span class="top-balls">5</span>
-                    <span class="top-balls">6</span>
-                    <span class="top-balls">7</span>
-                    <span class="top-balls">8</span>
+                    <span class="top-balls ball-four">4</span>
+                    <span class="top-balls ball-five">5</span>
+                    <span class="top-balls ball-six">6</span>
+                    <span class="top-balls ball-seven">7</span>
+                    <span class="top-balls ball-eight">8</span>
                 </div>
             </div>
-            <div class="numeros"></div>
+            <div class="numeros">
+                <div class="numeros-label">
+                    <label for="">Ingresar número</label>
+                    <input type="text" class="numeros-input">
+                </div>
+                <div class="container">
+                    <div class="cuadros flex1">
+                        <span class="top-balls">1</span>
+                    </div>
+                    <div class="cuadros flex1">
+                        <span class="top-balls">1</span>
+                    </div>
+                    <div class="cuadros flex1">
+                        <span class="top-balls">1</span>
+                    </div>
+                </div>
+                
+            </div>
         </section>
         <script src="logic.js"></script>
     </body>
