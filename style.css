@@ -12,7 +12,7 @@ body {
     box-sizing: border-box;
 }
 #date_input {
-    background-color: #0080ff;
+    background-color: black;
     padding: 15px;
     position: absolute;
     margin: 20px;
@@ -122,14 +122,26 @@ body {
 .numeros-input{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 5px rgb(16, 164, 255);
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
 }
 .cuadros{
     border: 1px solid;
+    border-radius: 5px;
     padding: 10px;
-    box-shadow: 5px 5px rgb(210, 3, 76);
+    box-shadow: 5px 5px black;
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+
+.cuadros .balls {
+    color: white;
+    font-size: 36px;
+    background: orange;
+    width: 48px;
+    text-align: center;
+    border-radius: 50%;
 }
