@@ -39,16 +39,16 @@ input[type="date"]{
 .container.first {
     margin: 20px;
 }
-
 .cruz {
     flex: 1;
     position: relative;
 }
-
+.flex1{
+    flex: 1;
+}
 .numeros {
     flex: 1;
 }
-
 .square {
     height: 400px;
     width: 400px;
@@ -84,18 +84,51 @@ input[type="date"]{
     left: 66px;
 }
 .ball-two {
-    top: 118px;
+    top: 110px;
     left: 180px;
+    background: green;
 }
 .ball-three {
     top: 72px;
-    left: 296px;
+    left: 290px;
 }
 .ball-four {
-    top: 72px;
-    left: 296px;
+    top: 194px;
+    left: 100px;
+    background: green;
 }
 .ball-five {
-    top: 72px;
-    left: 296px;
+    top: 194px;
+    left: 256px;
+    background: green;
+}
+.ball-six {
+    top: 305px;
+    left: 66px;
+}
+.ball-seven {
+    top: 272px;
+    left: 180px;
+    background: green;
+}
+.ball-eight {
+    top: 305px;
+    left: 292px;
+}
+.numeros-label{
+    margin: 10px;
+}
+.numeros-input{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(16, 164, 255);
+}
+.cuadros{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(210, 3, 76);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
