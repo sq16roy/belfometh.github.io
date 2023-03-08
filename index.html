@@ -11,7 +11,13 @@
     <body>
         <section class="container">
             <div class="flex1">
-                <input type="date" id="date_input"/>
+                <input
+                    type="text"
+                    id="date_input"
+                    placeholder="DD/MM/YYYY"
+                    onfocus="(this.type='date')"
+                    onblur="(this.type='text')"
+                />
             </div>
             <div class="flex1"></div>
         </section>
@@ -19,14 +25,14 @@
             <div class="cruz">
                 <div class="square"></div>
                 <div>
-                    <span class="top-balls ball-one">1</span>
-                    <span class="top-balls ball-two">2</span>
-                    <span class="top-balls ball-three">3</span>
-                    <span class="top-balls ball-four">4</span>
-                    <span class="top-balls ball-five">5</span>
-                    <span class="top-balls ball-six">6</span>
-                    <span class="top-balls ball-seven">7</span>
-                    <span class="top-balls ball-eight">8</span>
+                    <span class="top-balls ball-one" id="ballOne">X</span>
+                    <span class="top-balls ball-two" id="ballTwo">X</span>
+                    <span class="top-balls ball-three" id="ballThree">X</span>
+                    <span class="top-balls ball-four" id="ballFour">X</span>
+                    <span class="top-balls ball-five" id="ballFive">X</span>
+                    <span class="top-balls ball-six" id="ballSix">X</span>
+                    <span class="top-balls ball-seven" id="ballSeven">X</span>
+                    <span class="top-balls ball-eight" id="ballEight">X</span>
                 </div>
             </div>
             <div class="numeros">

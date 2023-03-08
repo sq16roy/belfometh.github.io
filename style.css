@@ -11,7 +11,7 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-input[type="date"]{
+#date_input {
     background-color: #0080ff;
     padding: 15px;
     position: absolute;
@@ -23,8 +23,9 @@ input[type="date"]{
     outline: none;
     border-radius: 5px;
     z-index: 99;
+    max-width: 258px;
 }
-::-webkit-calendar-picker-indicator{
+::-webkit-calendar-picker-indicator {
     background-color: #ffffff;
     padding: 5px;
     cursor: pointer;

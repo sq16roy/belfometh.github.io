@@ -1,3 +1,11 @@
+const ballOne = document.getElementById("ballOne");
+const ballTwo = document.getElementById("ballTwo");
+const ballThree = document.getElementById("ballThree");
+const ballFour = document.getElementById("ballFour");
+const ballFive = document.getElementById("ballFive");
+const ballSix = document.getElementById("ballSix");
+const ballSeven = document.getElementById("ballSeven");
+const ballEight = document.getElementById("ballEight");
 let outDays = [];
 let inDays = [];
 
@@ -8,6 +16,16 @@ const date_input = document.getElementById('date_input').addEventListener("chang
     const currentYear = numberToArray(currentDate.getFullYear());
 
     generateNumbers(currentDay, currentMonth, currentYear);
+
+     ballOne.innerHTML = outDays[0];
+     ballTwo.innerHTML = inDays[0];
+     ballThree.innerHTML = outDays[1];
+     ballFour.innerHTML = inDays[1];
+     ballFive.innerHTML = inDays[2];
+     ballSix.innerHTML = outDays[2];
+     ballSeven.innerHTML = inDays[3];
+     ballEight.innerHTML = outDays[3];
+
 
     console.log("full", event.target.value, "dia", currentDay, "mes", currentMonth, "anno", currentYear, outDays, inDays);
 });
